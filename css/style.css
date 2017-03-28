@@ -9,7 +9,7 @@ body {
 	margin: 0;
 }
 .statusbar {
-	background-color: blue;
+	background-color: #F3F315;
 	position: absolute;
 	top: 0;
 	z-index: 10;
@@ -26,20 +26,20 @@ body {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	background-color: blue;
+	background-color: #F3F315;
 	padding: 20px 5px 10px 5px;
 	z-index: 20;
 }
 h1 {
-	font-family: 'Rubik Mono One', sans-serif;
-	font-size: 24px;
-	color: #fff;
+	font-family: 'Passion One', cursive;
+	font-size: 46px;
+	color: #333;
 	margin: 0;
 }
 p {
-	font-family: 'Roboto Mono', monospace;
-	font-size: 18px;
-	color: #fff;
+	font-family: 'Forum', cursive;
+	font-size: 24px;
+	color: #333;
 	margin: 0;
 }
 .button {
