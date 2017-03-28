@@ -13,6 +13,7 @@
 	</head>
 	<body>
 		<img src="img/wp.jpg" alt="Wallpaper" class="wallpaper" />
+		<div class="statusbar"></div>
 		<div class="info">
 			<div class="info-left">
 				<h1>Wallpaper Daily</h1>
@@ -22,7 +23,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script>
 			$( ".wallpaper" ).click(function() {
-			  $( ".info" ).slideToggle( "fast", function() {
+			  $( ".info" ).fadeToggle( "fast", function() {
 			  });
 			});
 		</script>
